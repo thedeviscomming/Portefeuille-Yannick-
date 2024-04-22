@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portefeuille</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        /* Ajoutez des styles supplémentaires ici si nécessaire */
+    </style>
+</head>
+
+<body class="bg-gray-100">
+    <!-- En-tête -->
+    <header class="bg-gray-800 text-white py-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-semibold">Yannick Leveque Emmanuel Sambou </h1>
+            <nav class="space-x-4">
+                <a href="#" class="hover:text-gray-300">Accueil</a>
+                <a href="#" class="hover:text-gray-300">Projets</a>
+                <a href="#" class="hover:text-gray-300">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Section héros -->
+    <section class="bg-gray-900 text-white py-20">
+        <div class="container mx-auto text-center" >
+            <div class="bg-cover bg-center w-full h-full" style="background-image: url('https://w0.peakpx.com/wallpaper/844/155/HD-wallpaper-i-am-programmer-programmer-hacker-engineer-computer.jpg')">
+            <h2 class="text-4xl font-semibold">Bienvenue sur mon portefeuille personnel</h2>
+            <p class="mt-4">Je suis un développeur passionné de Codage. Découvrez mes compétences et projets ci-dessous.</p>
+        </div>
+    </section>
+
+    <!-- Section compétences -->
+    <section class="py-16">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-semibold mb-8">Compétences</h2>
+            <div class="flex justify-center space-x-8">
+                <div>
+                    <h3 class="text-xl font-semibold mb-2">HTML/CSS</h3>
+                    <p>Maîtrise avancée</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold mb-2">Wordpress</h3>
+                    <p>Compétent</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold mb-2">Microsoft Office</h3>
+                    <p>Maitrise avancée</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section projets -->
+    <section class="bg-gray-200 py-16">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-semibold mb-8">Projets</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Projet 1 -->
+                <div class="bg-white rounded-lg shadow-md p-6">
+                    <img src="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/181219790/original/9986e3c91ade8e57901dded77e0bd8f2244ae955/create-website-using-html-css-js.jpg" class="w-full h-32 object-cover mb-4 rounded">
+                    <h3 class="text-xl font-semibold mb-2">Projet html/css</h3>
+                    <p>Creation de page destination 1</p>
+                </div>
+                <!-- Projet 2 -->
+                <div class="bg-white rounded-lg shadow-md p-6">
+                    <img src="https://adrenalead.com/wp-content/uploads/2024/02/editeurs_plugin-wordpress.webp" class="w-full h-32 object-cover mb-4 rounded">
+                    <h3 class="text-xl font-semibold mb-2">Projet Wordpress</h3>
+                    <p>Creation de page web</p>
+                </div>
+                <!-- Projet 3 -->
+                <div class="bg-white rounded-lg shadow-md p-6">
+                    <img src="https://fr-images.tuto.net/tuto/thumb/648/288/185071.jpg" class="w-full h-32 object-cover mb-4 rounded">
+                    <h3 class="text-xl font-semibold mb-2">Projet Excel</h3>
+                    <p>Gestion de Tableau Croisés dynamiques</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section contact -->
+    <section class="py-16">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-semibold mb-8">Contact</h2>
+            <form class="max-w-md mx-auto">
+                <div class="mb-4">
+                    <label for="name" class="block text-gray-700">Nom</label>
+                    <input type="text" id="name" name="name" class="w-full px-4 py-2 rounded-md border-gray-300 focus:border-indigo-500 focus:ring focus:ring-indigo-200">
+                </div>
+                <div class="mb-4">
+                    <label for="email" class="block text-gray-700">Email</label>
+                    <input type="email" id="email" name="email" class="w-full px-4 py-2 rounded-md border-gray-300 focus:border-indigo-500 focus:ring focus:ring-indigo-200">
+                </div>
+                <div class="mb-4">
+                    <label for="message" class="block text-gray-700">Message</label>
+                    <textarea id="message" name="message" rows="4" class="w-full px-4 py-2 rounded-md border-gray-300 focus:border-indigo-500 focus:ring focus:ring-indigo-200"></textarea>
+                </div>
+                <button type="submit" class="bg-indigo-500 text-white px-6 py-2 rounded-md hover:bg-indigo-600">Envoyer</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Pied de page -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto flex justify-between items-center">
+            <div>
+                <p>&copy; 2024 Votre Nom</p>
+            </div>
+            <div>
+                <a href="#" class="text-gray-400 hover:text-white mx-2"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="text-gray-400 hover:text-white mx-2"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="text-gray-400 hover:text-white mx-2"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
